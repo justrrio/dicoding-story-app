@@ -1,0 +1,7 @@
+<!-- Basic icon for the app - 144x144px -->
+<svg width="144" height="144" viewBox="0 0 144 144" xmlns="http://www.w3.org/2000/svg">
+  <rect width="144" height="144" fill="#3498db" rx="32" ry="32"/>
+  <circle cx="72" cy="54" r="20" fill="#ecf0f1"/>
+  <path d="M108 96H36a24 24 0 0 1 24-24h24a24 24 0 0 1 24 24z" fill="#ecf0f1"/>
+  <rect x="45" y="24" width="54" height="6" fill="#ecf0f1" rx="3" ry="3"/>
+</svg>

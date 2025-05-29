@@ -1,0 +1,81 @@
+# Dicoding Story App - Advanced PWA
+
+This is a Progressive Web Application (PWA) that allows users to share stories with photos and locations. The app works offline and can be installed on any device.
+
+## PWA Features
+- **Installable**: Can be installed on desktop and mobile devices
+- **Offline Support**: Works offline with IndexedDB storage and service worker caching
+- **Push Notifications**: Receive notifications for new stories and app updates
+- **Background Sync**: Stories created offline sync automatically when back online
+- **App Shortcuts**: Quick access to add new stories from app icon
+- **Responsive Design**: Optimized for all screen sizes
+
+## Core Features
+- User authentication (login/register)
+- View stories from other users with infinite scroll
+- Add new stories with camera capture and location
+- Interactive story locations map using Leaflet.js
+- Favorites system for saving preferred stories
+- Mobile-friendly responsive design
+- Accessibility features (skip to content, semantic HTML)
+- Smooth page transitions using View Transition API
+
+## Project Structure
+This project follows the Model-View-Presenter (MVP) pattern:
+- **Models**: Handle data and API communication with offline-first approach
+- **Views**: Render UI components with responsive design
+- **Presenters**: Connect models and views, handle business logic
+
+## Technical Implementation
+- **Frontend**: Vanilla JavaScript ES6+ with MVP architecture
+- **PWA**: VitePWA plugin with Workbox for service worker and caching
+- **Storage**: IndexedDB for offline data persistence
+- **Maps**: Leaflet.js for interactive location mapping
+- **Build Tool**: Vite for development and production builds
+- **Notifications**: Web Push API with VAPID keys
+
+## Offline Capabilities
+- Stories are cached in IndexedDB for offline viewing
+- New stories can be created offline and sync when online
+- Images are cached for offline access
+- App shell is precached for instant loading
+
+## Developer Notes
+Created by: [Dicoding Student]
+Date: May 29, 2025
+Technology Stack: Progressive Web App with Vanilla JavaScript
+API: Dicoding Story API (https://story-api.dicoding.dev/v1)
+
+## Recent Updates (May 29, 2025)
+✅ Fixed add story functionality with proper authentication checks
+✅ Fixed push notifications - now working correctly after story creation
+✅ Fixed navigation links in 404 page to use correct routing format
+✅ Enhanced error handling and logging throughout the application
+✅ Improved notification system with fallback mechanisms
+✅ Added comprehensive testing and debugging capabilities
+
+## Implementation Status
+✅ PWA Core Features: Installable, offline support, service worker
+✅ Push Notifications: Working with VAPID keys and proper permissions
+✅ IndexedDB: Offline storage for stories and favorites
+✅ Authentication: Login/register with token management
+✅ Story Creation: Camera capture, location selection, form validation
+✅ Interactive Map: Leaflet.js integration with story locations
+✅ Responsive Design: Mobile-first approach with desktop optimization
+✅ Error Handling: Comprehensive error management and user feedback
+✅ Build System: Vite with PWA plugin, production-ready builds
+
+## Local Development
+1. Install dependencies: `npm install`
+2. Start development server: `npm run dev`
+3. Build for production: `npm run build`
+4. Preview production build: `npm run preview`
+
+## Deployment
+This app is ready for deployment to any static hosting service that supports PWAs:
+- GitHub Pages
+- Netlify
+- Vercel
+- Firebase Hosting
+
+**Live Demo**: [To be added after deployment]
