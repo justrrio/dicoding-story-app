@@ -2,7 +2,7 @@
   "name": "Dicoding Story App",
   "short_name": "Story App",
   "description": "Share your stories with the Dicoding community",
-  "start_url": "/",
+  "start_url": "/dicoding-story-app/",
   "display": "standalone",
   "background_color": "#ecf0f1",
   "theme_color": "#2c3e50",
