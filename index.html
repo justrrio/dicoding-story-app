@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Share your stories with the Dicoding community through photos and locations"
+    />
+    <meta name="theme-color" content="#2c3e50" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Story App" />
+    <meta name="msapplication-TileColor" content="#2c3e50" />
+    <meta name="msapplication-config" content="/browserconfig.xml" />
+    <title>Dicoding Story App</title>
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/dicoding-story-app/manifest.json" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/dicoding-story-app/icons/app-icon.svg" />
+    <link rel="apple-touch-icon" href="/dicoding-story-app/icons/app-icon.svg" />
+    <link rel="apple-touch-icon" sizes="192x192" href="/dicoding-story-app/icons/app-icon.svg" />    <link rel="apple-touch-icon" sizes="512x512" href="/dicoding-story-app/icons/app-icon.svg" />
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- Leaflet CSS for maps - updated to latest version -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css"
+    />
+    <script type="module" crossorigin src="/dicoding-story-app/assets/main-C5JAmAhH.js"></script>
+    <link rel="stylesheet" crossorigin href="/dicoding-story-app/assets/main-CvpnCcyy.css">
+  <link rel="manifest" href="/dicoding-story-app/manifest.webmanifest"></head>
+  <body>
+    <!-- Skip to content link for accessibility -->
+    <a href="#maincontent" class="skip-link">Skip to content</a>
+    <header>
+      <div class="container">
+        <h1><i class="fas fa-camera-retro"></i> Dicoding Story</h1>
+        <nav>
+          <ul>
+            <li>
+              <a href="#/" class="nav-link"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li>
+              <a href="#/add" class="nav-link"
+                ><i class="fas fa-plus"></i> Add Story</a
+              >
+            </li>
+            <li>
+              <a href="#/map" class="nav-link"
+                ><i class="fas fa-map-marked-alt"></i> Map</a
+              >
+            </li>
+            <li>
+              <a href="#/favorites" class="nav-link" id="favoritesLink"
+                ><i class="fas fa-heart"></i> Favorites</a
+              >
+            </li>
+            <li>
+              <a href="#/login" class="nav-link" id="loginLink"
+                ><i class="fas fa-sign-in-alt"></i> Login</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="maincontent">
+      <div id="app-container" view-transition-container>
+        <!-- Content will be rendered here -->
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Dicoding Story App</p>
+      </div>
+    </footer>
+    <!-- Leaflet JS - updated to latest version -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    <!-- App Scripts -->
+  </body>
+</html>
